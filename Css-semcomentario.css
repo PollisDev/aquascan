@@ -1,0 +1,204 @@
+:root {
+  --cor-fundo: #121212;
+  --cor-texto: #e0e0e0;
+  --cor-destaque: #00b4d8;
+  --cor-card: #1e1e1e;
+  --cor-borda: #333;
+  --cor-botao: #0077b6;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: var(--cor-fundo);
+  color: var(--cor-texto);
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: var(--cor-card);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.nav a {
+  margin-left: 15px;
+  color: var(--cor-texto);
+  text-decoration: none;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  background: #1a1a1a;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.banner-texto {
+  max-width: 100%;
+}
+
+.section-titulo {
+  text-align: center;
+  color: var(--cor-destaque);
+  margin: 2rem 0;
+  font-size: 2rem;
+}
+
+.sobre, .produto, .equipe, .planos {
+  padding: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+.sensor-card {
+  background: var(--cor-card);
+  border-radius: 6px;
+  padding: 1.5rem;
+  margin: 1rem;
+  text-align: center;
+  border: 1px solid var(--cor-borda);
+  flex: 1;
+  min-width: 200px;
+}
+
+.sensores {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.equipe-grupo {
+  margin: 3rem auto;
+  max-width: 1200px;
+  padding: 0 1rem;
+}
+
+.grupo-titulo {
+  color: var(--cor-destaque);
+  border-bottom: 2px solid var(--cor-borda);
+  padding-bottom: 0.5rem;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.equipe-membros {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.equipe-membro {
+  background: var(--cor-card);
+  padding: 1.5rem;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.equipe-foto {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--cor-destaque);
+}
+
+.fachada-img-container {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.fachada-img {
+  max-width: 90%;
+  height: auto;
+  border-radius: 12px;
+  border: 2px solid var(--cor-destaque);
+}
+
+.contato-unida {
+  background: var(--cor-card);
+  padding: 2rem;
+  margin-top: 3rem;
+  border-radius: 10px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#form-contato {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+input, textarea {
+  padding: 0.8rem;
+  border-radius: 5px;
+  border: 1px solid var(--cor-borda);
+  background: #1a1a1a;
+  color: white;
+  font-family: inherit;
+}
+
+button {
+  padding: 0.8rem;
+  background: var(--cor-botao);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.whatsapp-container {
+  margin: 1.5rem 0;
+  text-align: center;
+}
+
+.whatsapp-button {
+  background: #25D366;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.footer {
+  text-align: center;
+  padding: 1.5rem;
+  background: var(--cor-card);
+}
+
+@media (max-width: 768px) {
+  .equipe-membro {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .equipe-foto {
+    width: 80px;
+    height: 80px;
+  }
+}

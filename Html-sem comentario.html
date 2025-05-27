@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AquaScan | Monitoramento Inteligente de Água</title>
+  <link rel="stylesheet" href="estilo.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+  <header class="header">
+    <div class="logo">
+      <h1>AquaScan</h1>
+    </div>
+    <nav class="nav">
+      <a href="#sobre" class="nav-link">Sobre</a>
+      <a href="#produto" class="nav-link">Produto</a>
+      <a href="#equipe" class="nav-link">Equipe</a>
+      <a href="#contato" class="nav-link">Contato</a>
+    </nav>
+  </header>
+
+  <section class="banner">
+    <div class="banner-texto">
+      <h2>Tecnologia para Água Segura</h2>
+      <p>Monitoramento inteligente da qualidade da água.</p>
+    </div>
+  </section>
+
+  <section id="sobre" class="sobre">
+    <h2 class="section-titulo">Sobre a AquaScan</h2>
+    <p>A AquaScan é uma startup brasileira de base tecnológica, fundada em 30 de fevereiro de 2025, com foco em soluções para o monitoramento e a gestão inteligente de recursos hídricos.</p>
+    <p>O dispositivo AquaScan é um sistema IoT que opera em caixas d'água e monitora:</p>
+    <ul>
+      <li>pH da água</li>
+      <li>Turbidez (transparência)</li>
+      <li>Nível da água</li>
+      <li>Consumo estimado (vazão)</li>
+    </ul>
+    <p>Os dados são enviados via SMS com ajuda de um Arduino e um módulo GSM.</p>
+  </section>
+
+  <section class="fachada">
+    <h2 class="section-titulo">Nossa Estrutura</h2>
+    <div class="fachada-img-container">
+      <img src="https://i.postimg.cc/jqz3KWH2/foto-da-empresa-Photoroom.png" alt="Foto da Empresa" class="fachada-img"/>
+    </div>
+  </section>
+
+  <section id="produto" class="produto">
+    <h2 class="section-titulo">Parâmetros Monitorados</h2>
+    <div class="sensores">
+      <div class="sensor-card">
+        <h3>pH</h3>
+        <p id="valor-ph">--</p>
+      </div>
+      <div class="sensor-card">
+        <h3>Turbidez</h3>
+        <p id="valor-turbidez">--</p>
+      </div>
+      <div class="sensor-card">
+        <h3>Produto</h3>
+        <img class="img-produto" src="https://i.postimg.cc/L53MZNG0/produto-Photoroom.png" alt="Foto do Produto" style="max-width:100%;height:auto;border-radius:8px;"/>
+      </div>
+    </div>
+  </section>
+
+  <section class="planos">
+    <h2 class="section-titulo">Nossos Planos</h2>
+    <div class="sensores">
+      <div class="sensor-card">
+        <h3>Plano Normal</h3>
+        <p><strong>R$ 700,00</strong></p>
+        <p>Garantia de 6 meses</p>
+        <p>Suporte de instalação</p>
+        <button>Comprar</button>
+      </div>
+      <div class="sensor-card">
+        <h3>Plano Premium</h3>
+        <p><strong>R$ 800,00</strong></p>
+        <p>Garantia de 1 ano</p>
+        <p>Suporte de instalação</p>
+        <button>Comprar</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="equipe" class="equipe">
+    <h2 class="section-titulo">Nossa Equipe &amp; Contato</h2>
+    
+    <div class="equipe-grupo">
+      <h3 class="grupo-titulo">Empreendedorismo</h3>
+      <div class="equipe-membros">
+        <div class="equipe-membro">
+          <img src="https://i.postimg.cc/PqC8HF7H/OIP-1-Photoroom.png" class="equipe-foto"/>
+          <div>
+            <h3>Ruêvy Aizam Veras Pinheiro</h3>
+            <p>CEO (Chief Executive Officer)</p>
+          </div>
+        </div>
+        <div class="equipe-membro">
+          <img src="https://i.postimg.cc/PqC8HF7H/OIP-1-Photoroom.png" class="equipe-foto"/>
+          <div>
+            <h3>Nathalia Torres Nascimento</h3>
+            <p>Gestor(a) de Projeto</p>
+          </div>
+        </div>
+        <div class="equipe-membro">
+          <img src="https://i.postimg.cc/PqC8HF7H/OIP-1-Photoroom.png" class="equipe-foto"/>
+          <div>
+            <h3>Natasha de Freitas dos Reis</h3>
+            <p>COO (Chief Operating Officer)</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="equipe-grupo">
+      <h3 class="grupo-titulo">Programação</h3>
+      <div class="equipe-membros">
+        <div class="equipe-membro">
+          <img src="https://i.postimg.cc/PqC8HF7H/OIP-1-Photoroom.png" class="equipe-foto"/>
+          <div>
+            <h3>Pedro Pollis Arcanjo Pereira</h3>
+            <p>Desenvolvedor(a)</p>
+          </div>
+        </div>
+        <div class="equipe-membro">
+          <img src="https://i.postimg.cc/PqC8HF7H/OIP-1-Photoroom.png" class="equipe-foto"/>
+          <div>
+            <h3>Daniel Brito Miranda Santos</h3>
+            <p>Programador</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="equipe-grupo">
+      <h3 class="grupo-titulo">Conteúdo &amp; Apresentação</h3>
+      <div class="equipe-membros">
+        <div class="equipe-membro">
+          <img src="https://i.postimg.cc/PqC8HF7H/OIP-1-Photoroom.png" class="equipe-foto"/>
+          <div>
+            <h3>Eloisa Ferreira Campagnucci</h3>
+            <p>Redator</p>
+          </div>
+        </div>
+        <div class="equipe-membro">
+          <img src="https://i.postimg.cc/PqC8HF7H/OIP-1-Photoroom.png" class="equipe-foto"/>
+          <div>
+            <h3>Guilherme de Sousa Fernandes</h3>
+            <p>Redator</p>
+          </div>
+        </div>
+        <div class="equipe-membro">
+          <img src="https://i.postimg.cc/PqC8HF7H/OIP-1-Photoroom.png" class="equipe-foto"/>
+          <div>
+            <h3>Gustavo da Silva Rodrigues</h3>
+            <p>Apresentador</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="equipe-grupo">
+      <h3 class="grupo-titulo">Design</h3>
+      <div class="equipe-membros">
+        <div class="equipe-membro">
+          <img src="https://i.postimg.cc/PqC8HF7H/OIP-1-Photoroom.png" class="equipe-foto"/>
+          <div>
+            <h3>Vitória das Chagas Silva</h3>
+            <p>Designer</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="equipe-grupo">
+      <h3 class="grupo-titulo">Jurídico</h3>
+      <div class="equipe-membros">
+        <div class="equipe-membro">
+          <img src="https://i.postimg.cc/PqC8HF7H/OIP-1-Photoroom.png" class="equipe-foto"/>
+          <div>
+            <h3>Felipe Cauã Moreira Ambrósio</h3>
+            <p>Consultor Jurídico</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="equipe-grupo">
+      <h3 class="grupo-titulo">Mercado</h3>
+      <div class="equipe-membros">
+        <div class="equipe-membro">
+          <img src="https://i.postimg.cc/PqC8HF7H/OIP-1-Photoroom.png" class="equipe-foto"/>
+          <div>
+            <h3>Mariana Nunes Amorim</h3>
+            <p>Analista de Mercado</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="contato" class="contato-unida">
+      <h3 class="grupo-titulo">Fale Conosco</h3>
+      <form id="form-contato">
+        <input type="text" id="nome" placeholder="Seu Nome" required/>
+        <input type="email" id="email" placeholder="Seu E-mail" required/>
+        <textarea id="mensagem" placeholder="Sua Mensagem" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+      <div class="whatsapp-container">
+        <a href="#" class="whatsapp-button">
+          <i class="fab fa-whatsapp"></i> WhatsApp
+        </a>
+      </div>
+      <p class="destaque-servico">
+        Oferecemos também <strong>limpeza de caixas d'água</strong> por R$ 100,00 sob agendamento!
+      </p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© 2025 AquaScan. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
